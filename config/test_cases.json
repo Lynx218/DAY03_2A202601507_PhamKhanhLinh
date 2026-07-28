@@ -19,9 +19,9 @@
   },
   {
     "id": 4,
-    "category": "🟡 Multi-step (Cần gọi 2 Tools)",
-    "question": "Kiểm tra vé máy bay từ TP.HCM đi Hà Nội ngày mai và dự báo thời tiết ở Hà Nội.",
-    "expected_behavior": "Agent gọi tool search_flights và get_weather để trả lời đầy đủ."
+    "category": "🔴 Edge Case (Data Not Found & Out of Scope)",
+    "question": "Tra cứu vị trí Kỹ sư Năng lượng Hạt nhân làm việc tại Sao Hỏa.",
+    "expected_behavior": "Agent không ảo giác, Tool trả về không tìm thấy, Agent ngắt sau max iterations hoặc báo không có vị trí này."
   },
   {
     "id": 5,
